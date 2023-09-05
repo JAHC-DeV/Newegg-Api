@@ -1,5 +1,7 @@
 const findProduct = require("../../services/findProduct")
 const product = require("../../Models/product")
+
+
 async function searchProducts(req, res) {
     const body = req.body;
 
@@ -8,15 +10,15 @@ async function searchProducts(req, res) {
 
     if (result == undefined || result == null || result == [] || result.length === 0) {
         console.log("No hay en Bd");
-       result =  await findInWebBot(body.keywords);
+        result = await findInWebBot(body.keywords,body.page);
     }
-   // console.log(result);
+    // console.log(result);
     res.json(result)
-console.log("un cambio")
+    //console.log("un cambio")
 }
 
-const findInWebBot = async (keywords) => {
-    const result = await findProduct.webBot(keywords, 1);
+const findInWebBot = async (keywords,page) => {
+    const result = await findProduct.webBot(keywords, page);
     const productsPromise = result.products.map(async item =>{
         try {
             const nprod = await product.create({
