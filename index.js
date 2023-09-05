@@ -6,7 +6,7 @@ const db = require("./src/services/db/db");
 const searchProducts = require('./src/controllers/searchProducts');
 app.use(express.json());
 const port = 3000
-
+console.clear()
 app.get('/categories', async (req, res) => {
     const categories = await getCategories();
     console.log("Pidiendo Categorias")
