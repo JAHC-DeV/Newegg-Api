@@ -12,7 +12,7 @@ async function searchProducts(req, res) {
     }
    // console.log(result);
     res.json(result)
-
+console.log("un cambio")
 }
 
 const findInWebBot = async (keywords) => {
