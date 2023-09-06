@@ -1,20 +1,37 @@
+//Core
 const express = require('express')
 const app = express()
-const getCategories = require("./src/services/getCategories")
-
+/////
+//Midelware and Db
 const db = require("./src/services/db/db");
-const searchProducts = require('./src/controllers/searchProducts');
 app.use(express.json());
+/////
+
+//Controllers
+const getCategories = require("./src/services/getCategories")
+const searchProductsController = require('./src/controllers/searchProducts');
+const getRecomProdsController = require("./src/controllers/recomProds")
+const getRecomProdsWithConfigController = require("./src/controllers/recomProdsWithConfig")
+/////
+
 const port = 3000
 console.clear()
 app.get('/categories', async (req, res) => {
-    const categories = await getCategories();
-    console.log("Pidiendo Categorias")
-    res.json(categories);
+  const categories = await getCategories();
+  console.log("Pidiendo Categorias")
+  res.json(categories);
 })
-app.post("/search", async(req,res)=>{
-  searchProducts(req,res);
+app.get('/recomProds', async (req, res) => {
+  getRecomProdsController(req, res);
+})
+app.get('/recomProdsWithConfig', async (req, res) => {
+  getRecomProdsWithConfigController(req, res);
+})
+app.post("/search", async (req, res) => {
+  searchProductsController(req, res);
 });
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+

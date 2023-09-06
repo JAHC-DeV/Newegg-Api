@@ -1,7 +1,7 @@
 const findProduct = require("../../services/findProduct")
 const product = require("../../Models/product")
 
-async function searchProducts(req, res) {
+async function searchProductsController(req, res) {
     const body = req.body;
     const limit = 18;
     const offset = (body.page - 1) * limit; 
@@ -54,4 +54,4 @@ const getProductsDto = async (products) => {
 }
 
 
-module.exports = searchProducts
+module.exports = searchProductsController
