@@ -4,7 +4,8 @@ const { Sequelize } = require('sequelize');
 const db = new Sequelize('newegg-api', 'root', 'Jose2112*', {
     host: 'localhost',
     port: 3306,
-    dialect: 'mysql'/*| 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
+    dialect: 'mysql'/*| 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */,
+    logging: false
 });
 
 (async ()=>{
@@ -16,7 +17,7 @@ const db = new Sequelize('newegg-api', 'root', 'Jose2112*', {
   } catch (error) {
       console.log("Error al conectar la Db ", error)
   }
- // db.sync({force:true})
+  db.sync()
   })()
  
 module.exports = db;

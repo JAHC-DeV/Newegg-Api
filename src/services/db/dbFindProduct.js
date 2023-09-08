@@ -2,15 +2,25 @@ const product = require('../../Models/product')
 const { Op } = require("sequelize");
 
 async function findProduct(keywords, limit, offset) {
-
-  const searchQuery = keywords;
+  const removeNumbers = (str) => str.replace(/\d+/g, '').trim();
+  const searchQuery = removeNumbers(keywords);
+console.log(searchQuery+"8")
   const searchTerms = searchQuery.split(" ");
+  const searchTermsIndex = keywords.split(" ");
   const searchConditions = searchTerms.map(term => ({
-    [Op.and]: [
-      { name: { [Op.like]: `%${term}%` } }
+    [Op.or]: [
+      { name: { [Op.like]: `%${term}%` } },
+      { category: { [Op.like]: `%${term}%` } }
     ],
   }));
-  const result = await product.findAll({ where: { [Op.and]: searchConditions }, limit, offset })
+  const searchConditionsIndex = searchTermsIndex.map(term => ({
+    [Op.or]: [
+      { searchIndex: { [Op.like]: `%${term}%` } },  
+    ],
+  }));
+  const result = await product.findAll({ where: { [Op.or]:searchConditionsIndex,                                                
+                                                  [Op.and]: searchConditions }, limit, offset })
+                                                  
   return result;
 }
 

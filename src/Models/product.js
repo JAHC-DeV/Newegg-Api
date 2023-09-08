@@ -40,6 +40,10 @@ const product = products.init({
         allowNull:true
     },
     desciption:{
+        type: DataTypes.STRING(1000),
+        allowNull:true
+    },
+    searchIndex:{
         type:DataTypes.STRING,
         allowNull:true
     }

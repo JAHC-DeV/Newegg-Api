@@ -17,5 +17,25 @@ const getProductsDto = async (products) => {
     })
     return produtcsDto;
 }
+const getProductsDtoWeb = async (products, maxPages) => {
+    console.log(maxPages)
+    let produtcsDto = await products.map(item => {
+        return produtcDto = ({
+            id: item.id,
+            sku: item.sku,
+            name: item.name,
+            link: item.link,
+            imgUrl: item.imgUrl,
+            price: item.price,
+            desciption: item.desciption,
+            category: item.category,
+        });
+    })
+    const searchDto = {
+        products:produtcsDto,
+        maxPages
+    }
 
-module.exports = {getProductsDto}
+    return searchDto;
+}
+module.exports = {getProductsDto,getProductsDtoWeb}

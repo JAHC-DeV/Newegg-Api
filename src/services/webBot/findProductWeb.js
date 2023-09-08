@@ -31,7 +31,7 @@ async function Search(params, page) {
   const items = $(".item-cell");
   const list_tool_pagination = $(".list-tool-pagination");
   const buttons_gruop = $(list_tool_pagination[1]).children(".btn-group").children()
-  const maxPages = $(buttons_gruop[9]).text()
+  const maxPages = $(buttons_gruop[buttons_gruop.length-2]).text()
   res.maxPages = maxPages;
   let category = $(".left-nav-subcategory-title");
   category = category.text().replaceAll(" ", "");
@@ -52,14 +52,12 @@ async function Search(params, page) {
     product.imgUrl = info.children().attr("src");
     product.name = info.children().attr("title");
     product.price = price.find("strong").first().text() + price.find("sup").first().text();
+    product.price = product.price.replace(",","");
     const sku = $(el).children("div").attr("id");
     product.sku = sku;
-    if (sku === undefined) {
-      console.log("sku null: " + product.name)
-    } else if (sku === "") {
-      console.log("sku vacio: " + product.name)
-    }
-    else {
+
+    if (sku != undefined || sku != "")
+    {
       res.products.push(product);
       product.category = category;
     }
