@@ -4,7 +4,6 @@ const { Op } = require("sequelize");
 async function findProduct(keywords, limit, offset) {
   const removeNumbers = (str) => str.replace(/\d+/g, '').trim();
   const searchQuery = removeNumbers(keywords);
-console.log(searchQuery+"8")
   const searchTerms = searchQuery.split(" ");
   const searchTermsIndex = keywords.split(" ");
   const searchConditions = searchTerms.map(term => ({
