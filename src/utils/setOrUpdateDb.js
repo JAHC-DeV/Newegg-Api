@@ -1,6 +1,6 @@
 const product = require("../Models/product")
 
-function setOrUpdateDb(products,keywords) {
+function setProdsDb(products,keywords) {
     const productsPromise = products.map(async item => {
         try {
             if (item.desciption) {
@@ -32,4 +32,18 @@ function setOrUpdateDb(products,keywords) {
     })
     Promise.all(productsPromise).then();    
 }
-module.exports = setOrUpdateDb;
+function setProdDb(item) {
+    const productsPromise = async ()=>{
+        await product.upsert({
+            name: item.name,
+            sku: item.sku,
+            link: item.link,
+            imgUrl: item.imgUrl,
+            price: item.price,
+            desciption: item.desciption,
+            category: item.category,           
+        })
+    }   
+    productsPromise()
+}
+module.exports = {setProdsDb,setProdDb};

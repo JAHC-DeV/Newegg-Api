@@ -1,5 +1,5 @@
-const findProduct = require("../../services/findProduct")
-const setOrUpdateDb = require("../../utils/setOrUpdateDb")
+const {findProduct} = require("../../services/webBot/webBot")
+const {setProdsDb} = require("../../utils/setOrUpdateDb")
 const {getProductsDtoWeb} = require("../../utils/getClearDto")
 
 async function searchProductsController(req, res) {
@@ -10,8 +10,8 @@ async function searchProductsController(req, res) {
 }
 
 const findInWebBot = async (keywords, page) => {
-    const result = await findProduct.webBot(keywords, page);
-    setOrUpdateDb(result.products,keywords)
+    const result = await findProduct(keywords, page);
+    setProdsDb(result.products,keywords)
     return result;
 }
 

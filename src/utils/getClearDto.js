@@ -38,4 +38,21 @@ const getProductsDtoWeb = async (products, maxPages) => {
 
     return searchDto;
 }
-module.exports = {getProductsDto,getProductsDtoWeb}
+
+const getProductDto = async (product) => {
+    let category = product.Subcategory.SubcategoryDescription;
+    category = category.replaceAll(" ", "")
+    const sku = product.ParentItem == null ? product.Item :product.ParentItem;
+    let produtcDto = ({
+            id: product.id,
+            sku,
+            name: product.Description.Title,
+            link: prodUrl + sku,
+            imgUrl: imgUrl + product.NewImage.ImageName,
+            price: product.OwnerCost,
+            desciption: product.Description.BulletDescription,
+            category: category,
+        });
+        return produtcDto;
+}
+module.exports = {getProductsDto,getProductsDtoWeb,getProductDto}

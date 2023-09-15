@@ -1,11 +1,11 @@
 const getRecomProductsWithConfig = require("../../services/webBot/getRecomProductsWithConfig")
 const {getProductsDto} = require("../../utils/getClearDto")
-const setOrUpdateDb = require("../../utils/setOrUpdateDb")
+const {setProdsDb} = require("../../utils/setOrUpdateDb")
 
 async function recomProdsController(req,res) {
     const recomProds = await getRecomProductsWithConfig("Monitor Mouse Pad");
     const clearProds = await getProductsDto(recomProds)
-    setOrUpdateDb(clearProds,"")
+    setProdsDb(clearProds,"")
     res.json(clearProds);
 }
 
