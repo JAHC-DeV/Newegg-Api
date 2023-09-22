@@ -31,7 +31,7 @@ async function Search(params, page) {
   const items = $(".item-cell");
   const list_tool_pagination = $(".list-tool-pagination");
   const buttons_gruop = $(list_tool_pagination[1]).children(".btn-group").children()
-  const maxPages = $(buttons_gruop[buttons_gruop.length-2]).text()
+  const maxPages = $(buttons_gruop[buttons_gruop.length - 2]).text()
   res.maxPages = maxPages;
   let category = $(".left-nav-subcategory-title");
   category = category.text().replaceAll(" ", "");
@@ -43,7 +43,7 @@ async function Search(params, page) {
       link: "",
       imgUrl: "",
       price: "",
-      category:""
+      category: ""
     }
     const info = $(el).find("a").first();
     const price = $(el).find(".price-current");
@@ -52,18 +52,25 @@ async function Search(params, page) {
     product.imgUrl = info.children().attr("src");
     product.name = info.children().attr("title");
     product.price = price.find("strong").first().text() + price.find("sup").first().text();
-    product.price = product.price.replace(",","");
+    product.price = product.price.replace(",", "");
     const sku = $(el).children("div").attr("id");
     product.sku = sku;
 
-    if (sku != undefined || sku != "")
-    {
+    if (validator(product.sku, product.name, product.price)) {
       res.products.push(product);
       product.category = category;
     }
   })
 
   return res;
+}
+const validator = ( sku, name, price) => {
+
+  if (sku == undefined || sku == "" || price == undefined || price == "" || name == undefined || name == "") {
+    return false
+  }
+
+  return true;
 }
 module.exports = Search;
 

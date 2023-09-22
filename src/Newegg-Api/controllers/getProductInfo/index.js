@@ -5,8 +5,8 @@ const {setProdDb} = require("../../utils/setOrUpdateDb")
 async function getProdInfoController(req, res) {
     const { id } = req.body;
     const resData = await getProductInfo(id);
-    if (resData == undefined) {
-        console.log(resData)
+    if (resData == undefined || resData == null) {
+        res.status(404).json({status: false, data:[{msg:"Error al buscar, el producto no existe"}]})
     }else{
         const clearData = await getProductDto(resData.ItemInfo);        
         setProdDb(clearData)

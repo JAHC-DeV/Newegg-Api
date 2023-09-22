@@ -1,5 +1,5 @@
 const { Sequelize,DataTypes, Model } = require("sequelize")
-const sequelize = require("../services/db/db")
+const sequelize = require("../../Services/db/db")
 /*const db = new Sequelize('newegg-api', 'root', 'Jose2112*', {
     host: 'localhost',
     port: 3306,

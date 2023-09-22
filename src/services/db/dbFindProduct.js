@@ -1,4 +1,4 @@
-const product = require('../../Models/product')
+const product = require('../../Newegg-Api/Models/product')
 const { Op } = require("sequelize");
 
 async function findProduct(keywords, limit, offset) {

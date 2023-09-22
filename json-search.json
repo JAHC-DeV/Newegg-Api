@@ -1,0 +1,1345 @@
+{
+    "Modules": [
+        {
+            "BaseOnMsg": {
+                "ItemInfo": null,
+                "TrackingNumber": null,
+                "SubCategoryId": null,
+                "SubCategoryName": null,
+                "Keyword": "Ryzen 9",
+                "Type": 3,
+                "GroupId": "RK_RK",
+                "TriggerId": 6,
+                "BaseOnContext": {
+                    "Enabled": false,
+                    "ContextMessage": {
+                        "Message": "",
+                        "Clickable": false,
+                        "ReplaceValues": [],
+                        "ParamsArgs": null,
+                        "JpfMessage": null
+                    }
+                },
+                "DynamicCombo": null
+            },
+            "ModuleBaseInfo": {
+                "PageModuleId": "9554681D-F36F-4DF0-9196-6877120EAA3E",
+                "PModuleFeatureBox": "1",
+                "ModuleName": {
+                    "ContextMessage": {
+                        "Message": "Top Items",
+                        "Clickable": false,
+                        "ReplaceValues": [],
+                        "ParamsArgs": null,
+                        "JpfMessage": null
+                    },
+                    "PrdListContextMessage": {
+                        "Message": null,
+                        "Clickable": false,
+                        "ReplaceValues": null,
+                        "ParamsArgs": null,
+                        "JpfMessage": null
+                    }
+                },
+                "PModuleSeeAllLink": {
+                    "Enabled": true,
+                    "ContextMessage": {
+                        "Message": "See More",
+                        "Clickable": false,
+                        "ReplaceValues": [],
+                        "ParamsArgs": null,
+                        "JpfMessage": null
+                    }
+                },
+                "CoremetricsTag": "Pers_SearchResultSearch",
+                "CoremetricsRevision": null,
+                "SiteCatalystTagLevel": "I"
+            },
+            "RecommendItems": [
+                {
+                    "Type": "product",
+                    "ItemInfo": {
+                        "Item": "19-113-769",
+                        "UnitCost": 548.99,
+                        "FinalPrice": 428.99,
+                        "Active": "1",
+                        "IsActivated": true,
+                        "NewImage": {
+                            "ImageNameList": "19-113-769-02.jpg,19-113-769-03.jpg",
+                            "ImageName": "19-113-769-02.jpg",
+                            "DFIS360ImgFlag": null,
+                            "NobgImageName": null
+                        },
+                        "Image": {
+                            "HasScene7Image": false,
+                            "ImageInternalCount": 2,
+                            "WaterMarkFlag": "0",
+                            "ImageType": 0,
+                            "IsDFISImage": true,
+                            "HasWaterMark": true,
+                            "Normal": {
+                                "ImageNameList": "19-113-769-02.jpg,19-113-769-03.jpg",
+                                "ImageName": "19-113-769-02.jpg",
+                                "DFIS360ImgFlag": null
+                            },
+                            "Scene7": {
+                                "ImageName": null,
+                                "ImageSetName": null,
+                                "ImageSetImageList": null,
+                                "SpinSetName": null,
+                                "SpinSetImageList": null,
+                                "ThumbnailSetName": null,
+                                "ThumbnailSetImageList": null,
+                                "VendorSetImageList": null,
+                                "SpecialImageList": null
+                            },
+                            "ItemCellImageName": "19-113-769-02.jpg",
+                            "ImagePathPattern": [
+                                {
+                                    "Size": -1,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 35,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 60,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll/{ImageName}"
+                                },
+                                {
+                                    "Size": 100,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 180,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll200/{ImageName}"
+                                },
+                                {
+                                    "Size": 1280,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageOriginal/{ImageName}"
+                                }
+                            ]
+                        },
+                        "Description": {
+                            "Title": "AMD Ryzen 9 7900X - 12-Core 4.7 GHz - Socket AM5 - 170W Desktop Processor (100-100000589WOF)",
+                            "IMDescription": "CPU AMD|RYZEN 9 7900X 76M",
+                            "BulletDescription": "5nm 170W \r\n64MB L3 Cache \r\nWindows 11 Supported\r\nCooling device not included - Processor Only",
+                            "LineDescription": "AMD Ryzen 9 7900X - 12-Core 4.7 GHz - Socket AM5 - 170W Desktop Processor (100-100000589WOF)",
+                            "WebDescription": "AMD Ryzen 9 7900X - 12-Core 4.7 GHz - Socket AM5 - 170W Desktop Processor (100-100000589WOF)",
+                            "LongDescription": null,
+                            "UrlKeywords": "amd-ryzen-9-7900x-ryzen-9-7000-series",
+                            "ShortTitle": "AMD Ryzen 9 7900X Desktop Processor",
+                            "WHIDescription": null,
+                            "ProductName": "AMD Ryzen 9 7900X 12-Core 4.7 GHz",
+                            "ManualProductName": "AMD Ryzen 9 7900X 12-Core 4.7 GHz"
+                        },
+                        "PreorderType": 0,
+                        "PromotionInfo": {
+                            "PromotionText": "Free 32GB DDR5 Memory + Starfield Game Bundle w/ purchase, limited offer",
+                            "DisplayPromotionText": "Free 32GB DDR5 Memory + Starfield Game Bundle w/ purchase, limited offer",
+                            "PromotionLink": "",
+                            "PromotionLinkOpenType": "",
+                            "PCode": "",
+                            "PCodeType": 0,
+                            "PCodeValue": 0
+                        },
+                        "Instock": true,
+                        "PremierMark": null,
+                        "OwnerCost": 0,
+                        "CanPreLaunch": false,
+                        "AddToCartType": 0,
+                        "MapPrice": 0,
+                        "ParentItem": null,
+                        "IsBlockSeller": false,
+                        "Feature": {
+                            "IsAIT": false,
+                            "IsRestricted": false,
+                            "IsPremier": false,
+                            "IsFirstFromAsia": false,
+                            "IsInPMCC": true,
+                            "IsHot": false,
+                            "IsFreshDeal": false,
+                            "HasManufacturerWarranty": false,
+                            "ShipByNewegg": true,
+                            "ShowOEMRetail": true,
+                            "ShowOEM": false,
+                            "USPSMark": true,
+                            "ShopRunnerMark": null,
+                            "HasIntelligence": false,
+                            "IsNew": true,
+                            "IsRefurbished": false,
+                            "IsOpenBoxed": false,
+                            "ProductType": 1,
+                            "IsPreLaunch": false,
+                            "ABSMinimum": false,
+                            "IsGiftCard": false,
+                            "IsFlower": false,
+                            "IsPCBuilderReserveItem": false
+                        },
+                        "MailinRebateCollection": null,
+                        "SaleEndTimeText": "",
+                        "Download": {
+                            "DownloadType": 0,
+                            "BoxItem": null,
+                            "SFItem": null
+                        },
+                        "Type": 0,
+                        "Subcategory": {
+                            "SubcategoryId": 343,
+                            "PatchCount": 0,
+                            "SubcategoryDescription": "Processors - Desktops",
+                            "RealSubCategoryId": 343,
+                            "RealSubCategoryDescription": "Processors - Desktops"
+                        },
+                        "ItemManufactory": {
+                            "BrandId": 1028,
+                            "Code": 0,
+                            "Manufactory": "AMD",
+                            "CountryOfMfr": "USA",
+                            "ManfactoryLogo": 1,
+                            "ManufactoryWeb": null,
+                            "Hyperlink": null,
+                            "CustomerServicePhone": null,
+                            "IsM2C": false
+                        },
+                        "MaxQty4Promo": 99849,
+                        "ItemTime": {
+                            "StartTime": "2023-09-05 00:00:00.000-07:00",
+                            "ConvertTime": "2023-09-05 00:00:00.000-07:00",
+                            "ReleaseTime": "2023-10-11 00:00:00.000-07:00",
+                            "ETATime": "2023-09-08 00:00:00.000-07:00"
+                        },
+                        "ConvertCompleteFlag": "1",
+                        "NTCItemMark": false,
+                        "OEMMark": "false",
+                        "InstantRebateAmount": 120,
+                        "Review": {
+                            "Rating": 5,
+                            "HumanRating": 458,
+                            "CombineGroup": 3,
+                            "ReviewSign": "",
+                            "ReviewSignValue": null,
+                            "ViewCount": 0,
+                            "ItemAsDescribedRate": null,
+                            "DeliverdOnTimeRate": null,
+                            "SatisfiedServiiceRate": null,
+                            "PositiveReviewRate": null,
+                            "ImageVideoReviews": 49,
+                            "RatingOneDecimal": 4.8,
+                            "DeliverdOnTimeRateLast12M": null,
+                            "ItemAsDescribedRateLast12M": null,
+                            "SatisfiedServiiceRateLast12M": null,
+                            "PositiveReviewRateLast12M": null
+                        },
+                        "Financing": {
+                            "TranCode": null,
+                            "StartDate": null,
+                            "EndDate": null,
+                            "Months": 0,
+                            "PayTermType": null
+                        },
+                        "RankInfo": {
+                            "ParentItem": null,
+                            "ItemNumber": "19-113-769",
+                            "WarehouseProcessScore": 0,
+                            "MerchantMetricsScore": 0.993774,
+                            "OrderPendingFastestDays": 0,
+                            "OrderPendingSlowestDays": 0,
+                            "FastestDays": 0,
+                            "SlowestDays": 0,
+                            "EggPointRate": 0,
+                            "ShippingMethodFastest": 3,
+                            "ShippingMethodSlowest": 7,
+                            "TierEggpointRate": 0,
+                            "InnerEggPercentPoints": null
+                        },
+                        "Seller": {
+                            "SellerId": "",
+                            "SellerName": null,
+                            "SellerLogoURL": null,
+                            "SellerRating": null,
+                            "SellerRatingOneDecimal": null,
+                            "SellerReviewCount": null,
+                            "SellerUrlKey": null,
+                            "SellerModel": null,
+                            "TopRated": false,
+                            "LifetimeOrderCount": 0,
+                            "SellerRatingLast12M": null,
+                            "SellerRatingOneDecimalLast12M": null,
+                            "SellerReviewCountLast12M": null
+                        },
+                        "Subscription": {
+                            "SubscriptionProgramID": 0,
+                            "SubscriptionOnly": false,
+                            "SubscriptionOrderFrequency": 0,
+                            "SubscriptionPriceDiscountRate": 0,
+                            "SubscriptionIsFreeShipping": "\u0000",
+                            "SubscriptionContractTerm": 0,
+                            "SubscriptionFreeTrial": 0,
+                            "IsSubscription": false,
+                            "IsRegularSubscription": false,
+                            "IsSubscriptionOnly": false,
+                            "IsCancelSubscription": false,
+                            "IsCommitmentSubscription": false,
+                            "IsSubscriptionFreeShipping": false
+                        },
+                        "VolumeDiscount": {
+                            "PromotionPrice1": 0,
+                            "PromotionPrice2": 0,
+                            "PromotionPrice3": 0,
+                            "PromotionQty1": 0,
+                            "PromotionQty2": 0,
+                            "PromotionQty3": 0,
+                            "PromotionShipping1": 0,
+                            "PromotionShipping2": 0,
+                            "PromotionShipping3": 0
+                        },
+                        "HasStudentPrice": false,
+                        "ViewDescription": "<b>L3 Cache:</b> 64MB<br/><b>Cooling Device:</b> Cooling device not included - Processor Only<br/><b>Manufacturing Tech:</b> 5nm<br/><b>64-Bit Support:</b> Yes<br/><b>Processors Type:</b> Desktop<br/><b># of Threads:</b> 24<br/><b>Max Turbo Frequency:</b> Up to 5.6 GHz<br/><b>Memory Channel:</b> 2<br/>",
+                        "Model": "100-100000589WOF",
+                        "ShippingCharge": 0.01,
+                        "RestrictedItemMark": "0",
+                        "NewProductMark": false,
+                        "Warranty": {
+                            "WarrantyID": 44,
+                            "WarrantyName": "Standard Return Policy"
+                        },
+                        "ItemGroupID": 193188322,
+                        "IsForceViewDetails": false,
+                        "BestSellingRanking": 15,
+                        "ItemTagFlags": {
+                            "BigDiscount": 2,
+                            "FreeShipping": 1,
+                            "NeweggPick": 5
+                        },
+                        "AutoPartsItemInfo": null,
+                        "DefaultShipVia": "100",
+                        "StockForPCBuilder": 0,
+                        "ShippingFeeType": 0,
+                        "ShippingFeeFlatRate": 0,
+                        "ShippingPromotionGroupID": "0",
+                        "EggSaverMark": "1",
+                        "SameDayShippingMark": "0",
+                        "Weight": 0.7,
+                        "LowestPrice30Days": 396.99,
+                        "PcodeDiscount": 0,
+                        "CustomTags": {
+                            "Save": "Save 21%"
+                        },
+                        "EssItemBadges": null,
+                        "IsHotItem": false,
+                        "ColorInfo": null,
+                        "BoostingType": null,
+                        "IsLowestPrice": false,
+                        "LaunchDate": "2022-09-27 06:00:00.000-07:00",
+                        "DurationDays": 30,
+                        "ItemOfArrivalType": 0,
+                        "DealsType": null,
+                        "StateExceptionList": null,
+                        "Length": 5.25,
+                        "Width": 5.25,
+                        "Height": 3.6,
+                        "Category": {
+                            "RealGroupId": 42,
+                            "RealGroupName": "Components & Peripherals",
+                            "RealDomainId": 46,
+                            "RealDomainName": "CPU",
+                            "RealCategoryId": 29,
+                            "RealCategoryName": "CPU"
+                        },
+                        "ShipFromCountryName": "United States",
+                        "LimitQuantity": 1,
+                        "AutoAddDiscount": 0
+                    },
+                    "SubCategory": null,
+                    "Campaign": null,
+                    "Article": null,
+                    "Video": null,
+                    "Combo": null,
+                    "DataSource": "ARki",
+                    "DisplayedStoreID": null,
+                    "DataSourceType": "DM",
+                    "SimilarItem": false,
+                    "SponsoredMsg": null,
+                    "ExtraFields": {
+                        "SP_CID": null,
+                        "SP_GID": null,
+                        "SP_MT": null,
+                        "primary": null,
+                        "trigger": null,
+                        "CoremetricsTag": null,
+                        "SiteCatalystTagLevel": null,
+                        "SP_RPN": null,
+                        "SubcategoryID": null
+                    },
+                    "SelectedStatus": false,
+                    "ComboOffer": false,
+                    "ContentOfComboOfferDiscount": null
+                },
+                {
+                    "Type": "product",
+                    "ItemInfo": {
+                        "Item": "19-113-785",
+                        "UnitCost": 429,
+                        "FinalPrice": 421,
+                        "Active": "1",
+                        "IsActivated": true,
+                        "NewImage": {
+                            "ImageNameList": "19-113-785-04.png,19-113-785-03.png",
+                            "ImageName": "19-113-785-04.png",
+                            "DFIS360ImgFlag": null,
+                            "NobgImageName": null
+                        },
+                        "Image": {
+                            "HasScene7Image": false,
+                            "ImageInternalCount": 2,
+                            "WaterMarkFlag": "0",
+                            "ImageType": 0,
+                            "IsDFISImage": true,
+                            "HasWaterMark": true,
+                            "Normal": {
+                                "ImageNameList": "19-113-785-04.png,19-113-785-03.png",
+                                "ImageName": "19-113-785-04.png",
+                                "DFIS360ImgFlag": null
+                            },
+                            "Scene7": {
+                                "ImageName": null,
+                                "ImageSetName": null,
+                                "ImageSetImageList": null,
+                                "SpinSetName": null,
+                                "SpinSetImageList": null,
+                                "ThumbnailSetName": null,
+                                "ThumbnailSetImageList": null,
+                                "VendorSetImageList": null,
+                                "SpecialImageList": null
+                            },
+                            "ItemCellImageName": "19-113-785-04.png",
+                            "ImagePathPattern": [
+                                {
+                                    "Size": -1,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 35,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 60,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll/{ImageName}"
+                                },
+                                {
+                                    "Size": 100,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 180,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll200/{ImageName}"
+                                },
+                                {
+                                    "Size": 1280,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageOriginal/{ImageName}"
+                                }
+                            ]
+                        },
+                        "Description": {
+                            "Title": "AMD Ryzen 9 7900 - Ryzen 9 7000 Series 12-Core Socket AM5 65W AMD Radeon Graphics Processor - 100-100000590BOX",
+                            "IMDescription": "CPU AMD|RYZEN 9 7900 3.7G 76M R",
+                            "BulletDescription": "65W \r\nAMD Radeon Graphics",
+                            "LineDescription": "AMD Ryzen 9 7900 - Ryzen 9 7000 Series 12-Core Socket AM5 65W AMD Radeon Graphics Processor - 100-100000590BOX",
+                            "WebDescription": "AMD Ryzen 9 7900 - Ryzen 9 7000 Series 12-Core Socket AM5 65W AMD Radeon Graphics Processor - 100-100000590BOX",
+                            "LongDescription": null,
+                            "UrlKeywords": "amd-ryzen-9-7900",
+                            "ShortTitle": "AMD Ryzen 9 7900 Processor",
+                            "WHIDescription": null,
+                            "ProductName": "AMD Ryzen 9 7900 12-Core",
+                            "ManualProductName": "AMD Ryzen 9 7900 12-Core"
+                        },
+                        "PreorderType": 0,
+                        "PromotionInfo": {
+                            "PromotionText": "Get Starfield™ with purchase of select AMD, limited offer.",
+                            "DisplayPromotionText": "Get Starfield™ with purchase of select AMD, limited offer.",
+                            "PromotionLink": "",
+                            "PromotionLinkOpenType": "0",
+                            "PCode": "",
+                            "PCodeType": 0,
+                            "PCodeValue": 0
+                        },
+                        "Instock": true,
+                        "PremierMark": null,
+                        "OwnerCost": 0,
+                        "CanPreLaunch": false,
+                        "AddToCartType": 0,
+                        "MapPrice": 0,
+                        "ParentItem": null,
+                        "IsBlockSeller": false,
+                        "Feature": {
+                            "IsAIT": false,
+                            "IsRestricted": false,
+                            "IsPremier": false,
+                            "IsFirstFromAsia": false,
+                            "IsInPMCC": false,
+                            "IsHot": false,
+                            "IsFreshDeal": false,
+                            "HasManufacturerWarranty": false,
+                            "ShipByNewegg": true,
+                            "ShowOEMRetail": true,
+                            "ShowOEM": false,
+                            "USPSMark": true,
+                            "ShopRunnerMark": null,
+                            "HasIntelligence": false,
+                            "IsNew": true,
+                            "IsRefurbished": false,
+                            "IsOpenBoxed": false,
+                            "ProductType": 1,
+                            "IsPreLaunch": false,
+                            "ABSMinimum": false,
+                            "IsGiftCard": false,
+                            "IsFlower": false,
+                            "IsPCBuilderReserveItem": false
+                        },
+                        "MailinRebateCollection": null,
+                        "SaleEndTimeText": null,
+                        "Download": {
+                            "DownloadType": 0,
+                            "BoxItem": null,
+                            "SFItem": null
+                        },
+                        "Type": 0,
+                        "Subcategory": {
+                            "SubcategoryId": 343,
+                            "PatchCount": 0,
+                            "SubcategoryDescription": "Processors - Desktops",
+                            "RealSubCategoryId": 343,
+                            "RealSubCategoryDescription": "Processors - Desktops"
+                        },
+                        "ItemManufactory": {
+                            "BrandId": 1028,
+                            "Code": 0,
+                            "Manufactory": "AMD",
+                            "CountryOfMfr": "USA",
+                            "ManfactoryLogo": 1,
+                            "ManufactoryWeb": null,
+                            "Hyperlink": null,
+                            "CustomerServicePhone": null,
+                            "IsM2C": false
+                        },
+                        "MaxQty4Promo": 999999,
+                        "ItemTime": {
+                            "StartTime": "2023-09-12 00:00:00.000-07:00",
+                            "ConvertTime": "2023-09-12 00:00:00.000-07:00",
+                            "ReleaseTime": "2023-10-15 00:00:00.000-07:00",
+                            "ETATime": "2023-09-15 00:00:00.000-07:00"
+                        },
+                        "ConvertCompleteFlag": "1",
+                        "NTCItemMark": false,
+                        "OEMMark": "false",
+                        "InstantRebateAmount": 8,
+                        "Review": {
+                            "Rating": 5,
+                            "HumanRating": 14,
+                            "CombineGroup": 3,
+                            "ReviewSign": "",
+                            "ReviewSignValue": null,
+                            "ViewCount": 0,
+                            "ItemAsDescribedRate": null,
+                            "DeliverdOnTimeRate": null,
+                            "SatisfiedServiiceRate": null,
+                            "PositiveReviewRate": null,
+                            "ImageVideoReviews": 0,
+                            "RatingOneDecimal": 4.8,
+                            "DeliverdOnTimeRateLast12M": null,
+                            "ItemAsDescribedRateLast12M": null,
+                            "SatisfiedServiiceRateLast12M": null,
+                            "PositiveReviewRateLast12M": null
+                        },
+                        "Financing": {
+                            "TranCode": null,
+                            "StartDate": null,
+                            "EndDate": null,
+                            "Months": 0,
+                            "PayTermType": null
+                        },
+                        "RankInfo": {
+                            "ParentItem": null,
+                            "ItemNumber": "19-113-785",
+                            "WarehouseProcessScore": 0,
+                            "MerchantMetricsScore": 0.993774,
+                            "OrderPendingFastestDays": 0,
+                            "OrderPendingSlowestDays": 0,
+                            "FastestDays": 0,
+                            "SlowestDays": 0,
+                            "EggPointRate": 0,
+                            "ShippingMethodFastest": 3,
+                            "ShippingMethodSlowest": 7,
+                            "TierEggpointRate": 0,
+                            "InnerEggPercentPoints": null
+                        },
+                        "Seller": {
+                            "SellerId": "",
+                            "SellerName": null,
+                            "SellerLogoURL": null,
+                            "SellerRating": null,
+                            "SellerRatingOneDecimal": null,
+                            "SellerReviewCount": null,
+                            "SellerUrlKey": null,
+                            "SellerModel": null,
+                            "TopRated": false,
+                            "LifetimeOrderCount": 0,
+                            "SellerRatingLast12M": null,
+                            "SellerRatingOneDecimalLast12M": null,
+                            "SellerReviewCountLast12M": null
+                        },
+                        "Subscription": {
+                            "SubscriptionProgramID": 0,
+                            "SubscriptionOnly": false,
+                            "SubscriptionOrderFrequency": 0,
+                            "SubscriptionPriceDiscountRate": 0,
+                            "SubscriptionIsFreeShipping": "\u0000",
+                            "SubscriptionContractTerm": 0,
+                            "SubscriptionFreeTrial": 0,
+                            "IsSubscription": false,
+                            "IsRegularSubscription": false,
+                            "IsSubscriptionOnly": false,
+                            "IsCancelSubscription": false,
+                            "IsCommitmentSubscription": false,
+                            "IsSubscriptionFreeShipping": false
+                        },
+                        "VolumeDiscount": {
+                            "PromotionPrice1": 0,
+                            "PromotionPrice2": 0,
+                            "PromotionPrice3": 0,
+                            "PromotionQty1": 0,
+                            "PromotionQty2": 0,
+                            "PromotionQty3": 0,
+                            "PromotionShipping1": 0,
+                            "PromotionShipping2": 0,
+                            "PromotionShipping3": 0
+                        },
+                        "HasStudentPrice": false,
+                        "ViewDescription": "<b>Cooling Device:</b> Wraith Prism Cooler<br/><b>64-Bit Support:</b> Yes<br/><b>Processors Type:</b> Desktop<br/><b># of Threads:</b> 24<br/>",
+                        "Model": "100-100000590BOX",
+                        "ShippingCharge": 0.01,
+                        "RestrictedItemMark": "0",
+                        "NewProductMark": false,
+                        "Warranty": {
+                            "WarrantyID": 44,
+                            "WarrantyName": "Standard Return Policy"
+                        },
+                        "ItemGroupID": 196006050,
+                        "IsForceViewDetails": false,
+                        "BestSellingRanking": 42,
+                        "ItemTagFlags": {
+                            "FreeShipping": 1,
+                            "NeweggPick": 5
+                        },
+                        "AutoPartsItemInfo": null,
+                        "DefaultShipVia": "100",
+                        "StockForPCBuilder": 0,
+                        "ShippingFeeType": 0,
+                        "ShippingFeeFlatRate": 0,
+                        "ShippingPromotionGroupID": "0",
+                        "EggSaverMark": "1",
+                        "SameDayShippingMark": "0",
+                        "Weight": 3,
+                        "LowestPrice30Days": 0,
+                        "PcodeDiscount": 0,
+                        "CustomTags": {},
+                        "EssItemBadges": null,
+                        "IsHotItem": false,
+                        "ColorInfo": null,
+                        "BoostingType": null,
+                        "IsLowestPrice": false,
+                        "LaunchDate": null,
+                        "DurationDays": null,
+                        "ItemOfArrivalType": 0,
+                        "DealsType": null,
+                        "StateExceptionList": null,
+                        "Length": 7,
+                        "Width": 5.5,
+                        "Height": 5.5,
+                        "Category": {
+                            "RealGroupId": 42,
+                            "RealGroupName": "Components & Peripherals",
+                            "RealDomainId": 46,
+                            "RealDomainName": "CPU",
+                            "RealCategoryId": 29,
+                            "RealCategoryName": "CPU"
+                        },
+                        "ShipFromCountryName": "United States",
+                        "LimitQuantity": 99999,
+                        "AutoAddDiscount": 0
+                    },
+                    "SubCategory": null,
+                    "Campaign": null,
+                    "Article": null,
+                    "Video": null,
+                    "Combo": null,
+                    "DataSource": "ARki",
+                    "DisplayedStoreID": null,
+                    "DataSourceType": "DM",
+                    "SimilarItem": false,
+                    "SponsoredMsg": null,
+                    "ExtraFields": {
+                        "SP_CID": null,
+                        "SP_GID": null,
+                        "SP_MT": null,
+                        "primary": null,
+                        "trigger": null,
+                        "CoremetricsTag": null,
+                        "SiteCatalystTagLevel": null,
+                        "SP_RPN": null,
+                        "SubcategoryID": null
+                    },
+                    "SelectedStatus": false,
+                    "ComboOffer": false,
+                    "ContentOfComboOfferDiscount": null
+                },
+                {
+                    "Type": "product",
+                    "ItemInfo": {
+                        "Item": "19-113-791",
+                        "UnitCost": 699,
+                        "FinalPrice": 684,
+                        "Active": "1",
+                        "IsActivated": true,
+                        "NewImage": {
+                            "ImageNameList": "19-113-791-03.png,19-113-791-01.png,19-113-791-02.png",
+                            "ImageName": "19-113-791-03.png",
+                            "DFIS360ImgFlag": null,
+                            "NobgImageName": null
+                        },
+                        "Image": {
+                            "HasScene7Image": false,
+                            "ImageInternalCount": 2,
+                            "WaterMarkFlag": "0",
+                            "ImageType": 0,
+                            "IsDFISImage": true,
+                            "HasWaterMark": true,
+                            "Normal": {
+                                "ImageNameList": "19-113-791-03.png,19-113-791-01.png,19-113-791-02.png",
+                                "ImageName": "19-113-791-03.png",
+                                "DFIS360ImgFlag": null
+                            },
+                            "Scene7": {
+                                "ImageName": null,
+                                "ImageSetName": null,
+                                "ImageSetImageList": null,
+                                "SpinSetName": null,
+                                "SpinSetImageList": null,
+                                "ThumbnailSetName": null,
+                                "ThumbnailSetImageList": null,
+                                "VendorSetImageList": null,
+                                "SpecialImageList": null
+                            },
+                            "ItemCellImageName": "19-113-791-03.png",
+                            "ImagePathPattern": [
+                                {
+                                    "Size": -1,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 35,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 60,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll/{ImageName}"
+                                },
+                                {
+                                    "Size": 100,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 180,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll200/{ImageName}"
+                                },
+                                {
+                                    "Size": 1280,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageOriginal/{ImageName}"
+                                }
+                            ]
+                        },
+                        "Description": {
+                            "Title": "AMD Ryzen 9 7950X3D - Ryzen 9 7000 Series 16-Core 4.2 GHz Socket AM5 120W AMD Radeon Graphics Desktop Processor - 100-100000908WOF",
+                            "IMDescription": "CPU AMD|RYZEN 9 7950X3D 5.7G 144M R",
+                            "BulletDescription": "5nm 120W \r\n128MB L3 Cache \r\n16MB L2 Cache \r\nAMD Radeon Graphics \r\nWindows 11 Supported",
+                            "LineDescription": "AMD Ryzen 9 7950X3D - Ryzen 9 7000 Series 16-Core 4.2 GHz Socket AM5 120W AMD Radeon Graphics Desktop Processor - 100-100000908WOF",
+                            "WebDescription": "AMD Ryzen 9 7950X3D - Ryzen 9 7000 Series 16-Core 4.2 GHz Socket AM5 120W AMD Radeon Graphics Desktop Processor - 100-100000908WOF",
+                            "LongDescription": null,
+                            "UrlKeywords": "amd-ryzen-9-7950x3d-ryzen-9-7000-series",
+                            "ShortTitle": "AMD Ryzen 9 7950X3D Desktop Processor",
+                            "WHIDescription": null,
+                            "ProductName": "AMD Ryzen 9 7950X3D 16-Core 4.2 GHz",
+                            "ManualProductName": "AMD Ryzen 9 7950X3D 16-Core 4.2 GHz"
+                        },
+                        "PreorderType": 0,
+                        "PromotionInfo": {
+                            "PromotionText": "Get Starfield™ with purchase of select AMD, limited offer.",
+                            "DisplayPromotionText": "Get Starfield™ with purchase of select AMD, limited offer.",
+                            "PromotionLink": "",
+                            "PromotionLinkOpenType": "0",
+                            "PCode": "",
+                            "PCodeType": 0,
+                            "PCodeValue": 0
+                        },
+                        "Instock": true,
+                        "PremierMark": null,
+                        "OwnerCost": 0,
+                        "CanPreLaunch": false,
+                        "AddToCartType": 0,
+                        "MapPrice": 0,
+                        "ParentItem": null,
+                        "IsBlockSeller": false,
+                        "Feature": {
+                            "IsAIT": false,
+                            "IsRestricted": false,
+                            "IsPremier": false,
+                            "IsFirstFromAsia": false,
+                            "IsInPMCC": false,
+                            "IsHot": false,
+                            "IsFreshDeal": false,
+                            "HasManufacturerWarranty": false,
+                            "ShipByNewegg": true,
+                            "ShowOEMRetail": true,
+                            "ShowOEM": false,
+                            "USPSMark": true,
+                            "ShopRunnerMark": null,
+                            "HasIntelligence": false,
+                            "IsNew": true,
+                            "IsRefurbished": false,
+                            "IsOpenBoxed": false,
+                            "ProductType": 1,
+                            "IsPreLaunch": false,
+                            "ABSMinimum": false,
+                            "IsGiftCard": false,
+                            "IsFlower": false,
+                            "IsPCBuilderReserveItem": false
+                        },
+                        "MailinRebateCollection": null,
+                        "SaleEndTimeText": null,
+                        "Download": {
+                            "DownloadType": 0,
+                            "BoxItem": null,
+                            "SFItem": null
+                        },
+                        "Type": 0,
+                        "Subcategory": {
+                            "SubcategoryId": 343,
+                            "PatchCount": 0,
+                            "SubcategoryDescription": "Processors - Desktops",
+                            "RealSubCategoryId": 343,
+                            "RealSubCategoryDescription": "Processors - Desktops"
+                        },
+                        "ItemManufactory": {
+                            "BrandId": 1028,
+                            "Code": 0,
+                            "Manufactory": "AMD",
+                            "CountryOfMfr": "USA",
+                            "ManfactoryLogo": 1,
+                            "ManufactoryWeb": null,
+                            "Hyperlink": null,
+                            "CustomerServicePhone": null,
+                            "IsM2C": false
+                        },
+                        "MaxQty4Promo": 999999,
+                        "ItemTime": {
+                            "StartTime": "1970-01-01 00:00:00.000",
+                            "ConvertTime": "1970-01-01 00:00:00.000",
+                            "ReleaseTime": "1970-01-01 00:00:00.000",
+                            "ETATime": null
+                        },
+                        "ConvertCompleteFlag": null,
+                        "NTCItemMark": false,
+                        "OEMMark": "false",
+                        "InstantRebateAmount": 15,
+                        "Review": {
+                            "Rating": 5,
+                            "HumanRating": 190,
+                            "CombineGroup": 3,
+                            "ReviewSign": "",
+                            "ReviewSignValue": null,
+                            "ViewCount": 0,
+                            "ItemAsDescribedRate": null,
+                            "DeliverdOnTimeRate": null,
+                            "SatisfiedServiiceRate": null,
+                            "PositiveReviewRate": null,
+                            "ImageVideoReviews": 20,
+                            "RatingOneDecimal": 4.8,
+                            "DeliverdOnTimeRateLast12M": null,
+                            "ItemAsDescribedRateLast12M": null,
+                            "SatisfiedServiiceRateLast12M": null,
+                            "PositiveReviewRateLast12M": null
+                        },
+                        "Financing": {
+                            "TranCode": null,
+                            "StartDate": null,
+                            "EndDate": null,
+                            "Months": 0,
+                            "PayTermType": null
+                        },
+                        "RankInfo": {
+                            "ParentItem": null,
+                            "ItemNumber": "19-113-791",
+                            "WarehouseProcessScore": 0,
+                            "MerchantMetricsScore": 0.993774,
+                            "OrderPendingFastestDays": 0,
+                            "OrderPendingSlowestDays": 0,
+                            "FastestDays": 0,
+                            "SlowestDays": 0,
+                            "EggPointRate": 0,
+                            "ShippingMethodFastest": 3,
+                            "ShippingMethodSlowest": 7,
+                            "TierEggpointRate": 0,
+                            "InnerEggPercentPoints": null
+                        },
+                        "Seller": {
+                            "SellerId": "",
+                            "SellerName": null,
+                            "SellerLogoURL": null,
+                            "SellerRating": null,
+                            "SellerRatingOneDecimal": null,
+                            "SellerReviewCount": null,
+                            "SellerUrlKey": null,
+                            "SellerModel": null,
+                            "TopRated": false,
+                            "LifetimeOrderCount": 0,
+                            "SellerRatingLast12M": null,
+                            "SellerRatingOneDecimalLast12M": null,
+                            "SellerReviewCountLast12M": null
+                        },
+                        "Subscription": {
+                            "SubscriptionProgramID": 0,
+                            "SubscriptionOnly": false,
+                            "SubscriptionOrderFrequency": 0,
+                            "SubscriptionPriceDiscountRate": 0,
+                            "SubscriptionIsFreeShipping": "\u0000",
+                            "SubscriptionContractTerm": 0,
+                            "SubscriptionFreeTrial": 0,
+                            "IsSubscription": false,
+                            "IsRegularSubscription": false,
+                            "IsSubscriptionOnly": false,
+                            "IsCancelSubscription": false,
+                            "IsCommitmentSubscription": false,
+                            "IsSubscriptionFreeShipping": false
+                        },
+                        "VolumeDiscount": {
+                            "PromotionPrice1": 0,
+                            "PromotionPrice2": 0,
+                            "PromotionPrice3": 0,
+                            "PromotionQty1": 0,
+                            "PromotionQty2": 0,
+                            "PromotionQty3": 0,
+                            "PromotionShipping1": 0,
+                            "PromotionShipping2": 0,
+                            "PromotionShipping3": 0
+                        },
+                        "HasStudentPrice": false,
+                        "ViewDescription": "<b>L3 Cache:</b> 128MB<br/><b>L2 Cache:</b> 16MB<br/><b>Cooling Device:</b> Cooling device not included - Processor Only<br/><b>Manufacturing Tech:</b> 5nm<br/><b>64-Bit Support:</b> Yes<br/><b>L1 Cache:</b> 1MB<br/><b>Graphics Base Frequency:</b> 400 MHz<br/><b>Processors Type:</b> Desktop<br/>",
+                        "Model": "100-100000908WOF",
+                        "ShippingCharge": 0.01,
+                        "RestrictedItemMark": "0",
+                        "NewProductMark": false,
+                        "Warranty": {
+                            "WarrantyID": 44,
+                            "WarrantyName": "Standard Return Policy"
+                        },
+                        "ItemGroupID": 196668433,
+                        "IsForceViewDetails": false,
+                        "BestSellingRanking": 17,
+                        "ItemTagFlags": {
+                            "FreeShipping": 1,
+                            "NeweggPick": 5
+                        },
+                        "AutoPartsItemInfo": null,
+                        "DefaultShipVia": "100",
+                        "StockForPCBuilder": 0,
+                        "ShippingFeeType": 0,
+                        "ShippingFeeFlatRate": 0,
+                        "ShippingPromotionGroupID": "0",
+                        "EggSaverMark": "1",
+                        "SameDayShippingMark": "0",
+                        "Weight": 0.69,
+                        "LowestPrice30Days": 671.21,
+                        "PcodeDiscount": 0,
+                        "CustomTags": {},
+                        "EssItemBadges": null,
+                        "IsHotItem": false,
+                        "ColorInfo": null,
+                        "BoostingType": null,
+                        "IsLowestPrice": false,
+                        "LaunchDate": null,
+                        "DurationDays": null,
+                        "ItemOfArrivalType": 0,
+                        "DealsType": null,
+                        "StateExceptionList": null,
+                        "Length": 5.25,
+                        "Width": 5.2,
+                        "Height": 3.6,
+                        "Category": {
+                            "RealGroupId": 42,
+                            "RealGroupName": "Components & Peripherals",
+                            "RealDomainId": 46,
+                            "RealDomainName": "CPU",
+                            "RealCategoryId": 29,
+                            "RealCategoryName": "CPU"
+                        },
+                        "ShipFromCountryName": "United States",
+                        "LimitQuantity": 999999,
+                        "AutoAddDiscount": 0
+                    },
+                    "SubCategory": null,
+                    "Campaign": null,
+                    "Article": null,
+                    "Video": null,
+                    "Combo": null,
+                    "DataSource": "ARki",
+                    "DisplayedStoreID": null,
+                    "DataSourceType": "DM",
+                    "SimilarItem": false,
+                    "SponsoredMsg": null,
+                    "ExtraFields": {
+                        "SP_CID": null,
+                        "SP_GID": null,
+                        "SP_MT": null,
+                        "primary": null,
+                        "trigger": null,
+                        "CoremetricsTag": null,
+                        "SiteCatalystTagLevel": null,
+                        "SP_RPN": null,
+                        "SubcategoryID": null
+                    },
+                    "SelectedStatus": false,
+                    "ComboOffer": false,
+                    "ContentOfComboOfferDiscount": null
+                },
+                {
+                    "Type": "product",
+                    "ItemInfo": {
+                        "Item": "19-113-664",
+                        "UnitCost": 549.99,
+                        "FinalPrice": 349.99,
+                        "Active": "1",
+                        "IsActivated": true,
+                        "NewImage": {
+                            "ImageNameList": "19-113-664-V01.jpg,B1MBS2111150RBMLI2E.jpg,B1MBS2111150RBMI5BC.jpg,B1MBS2111150RBMRV3C.jpg,B1MBS2111150RBMBY49.jpg,B1MBS2111150RBMBY98.jpg,B1MBS2111150RBMSG0C.jpg",
+                            "ImageName": "19-113-664-V01.jpg",
+                            "DFIS360ImgFlag": null,
+                            "NobgImageName": null
+                        },
+                        "Image": {
+                            "HasScene7Image": false,
+                            "ImageInternalCount": 2,
+                            "WaterMarkFlag": "0",
+                            "ImageType": 0,
+                            "IsDFISImage": true,
+                            "HasWaterMark": true,
+                            "Normal": {
+                                "ImageNameList": "19-113-664-V01.jpg,B1MBS2111150RBMLI2E.jpg,B1MBS2111150RBMI5BC.jpg,B1MBS2111150RBMRV3C.jpg,B1MBS2111150RBMBY49.jpg,B1MBS2111150RBMBY98.jpg,B1MBS2111150RBMSG0C.jpg",
+                                "ImageName": "19-113-664-V01.jpg",
+                                "DFIS360ImgFlag": null
+                            },
+                            "Scene7": {
+                                "ImageName": null,
+                                "ImageSetName": null,
+                                "ImageSetImageList": null,
+                                "SpinSetName": null,
+                                "SpinSetImageList": null,
+                                "ThumbnailSetName": null,
+                                "ThumbnailSetImageList": null,
+                                "VendorSetImageList": null,
+                                "SpecialImageList": null
+                            },
+                            "ItemCellImageName": "19-113-664-V01.jpg",
+                            "ImagePathPattern": [
+                                {
+                                    "Size": -1,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 35,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 60,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll/{ImageName}"
+                                },
+                                {
+                                    "Size": 100,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                                },
+                                {
+                                    "Size": 180,
+                                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll200/{ImageName}"
+                                },
+                                {
+                                    "Size": 1280,
+                                    "PathPattern": "http://c1.neweggimages.com/ProductImageOriginal/{ImageName}"
+                                }
+                            ]
+                        },
+                        "Description": {
+                            "Title": "AMD Ryzen 9 5900X - Ryzen 9 5000 Series Vermeer (Zen 3) 12-Core 3.7 GHz Socket AM4 105W None Integrated Graphics Desktop Processor - 100-100000061WOF",
+                            "IMDescription": "CPU AMD|RYZEN 9 5900X 3.7G 64M R",
+                            "BulletDescription": "7nm Vermeer (Zen 3) 105W \r\n64MB L3 Cache \r\n6MB L2 Cache \r\nNone Integrated Graphics \r\nWindows 11 Supported",
+                            "LineDescription": "AMD Ryzen 9 5900X - Ryzen 9 5000 Series Vermeer (Zen 3) 12-Core 3.7 GHz Socket AM4 105W None Integrated Graphics Desktop Processor - 100-100000061WOF",
+                            "WebDescription": "AMD Ryzen 9 5900X - Ryzen 9 5000 Series Vermeer (Zen 3) 12-Core 3.7 GHz Socket AM4 105W None Integrated Graphics Desktop Processor - 100-100000061WOF",
+                            "LongDescription": null,
+                            "UrlKeywords": "amd-ryzen-9-5900x",
+                            "ShortTitle": "AMD Ryzen 9 5900X Desktop Processor",
+                            "WHIDescription": null,
+                            "ProductName": "AMD Ryzen 9 5900X 12-Core 3.7 GHz",
+                            "ManualProductName": "AMD Ryzen 9 5900X 12-Core 3.7 GHz"
+                        },
+                        "PreorderType": 0,
+                        "PromotionInfo": {
+                            "PromotionText": null,
+                            "DisplayPromotionText": "",
+                            "PromotionLink": null,
+                            "PromotionLinkOpenType": null,
+                            "PCode": "",
+                            "PCodeType": 0,
+                            "PCodeValue": 0
+                        },
+                        "Instock": true,
+                        "PremierMark": null,
+                        "OwnerCost": 0,
+                        "CanPreLaunch": false,
+                        "AddToCartType": 0,
+                        "MapPrice": 0,
+                        "ParentItem": null,
+                        "IsBlockSeller": false,
+                        "Feature": {
+                            "IsAIT": false,
+                            "IsRestricted": false,
+                            "IsPremier": false,
+                            "IsFirstFromAsia": false,
+                            "IsInPMCC": false,
+                            "IsHot": false,
+                            "IsFreshDeal": false,
+                            "HasManufacturerWarranty": false,
+                            "ShipByNewegg": true,
+                            "ShowOEMRetail": true,
+                            "ShowOEM": false,
+                            "USPSMark": true,
+                            "ShopRunnerMark": null,
+                            "HasIntelligence": false,
+                            "IsNew": true,
+                            "IsRefurbished": false,
+                            "IsOpenBoxed": false,
+                            "ProductType": 1,
+                            "IsPreLaunch": false,
+                            "ABSMinimum": false,
+                            "IsGiftCard": false,
+                            "IsFlower": false,
+                            "IsPCBuilderReserveItem": false
+                        },
+                        "MailinRebateCollection": null,
+                        "SaleEndTimeText": null,
+                        "Download": {
+                            "DownloadType": 0,
+                            "BoxItem": null,
+                            "SFItem": null
+                        },
+                        "Type": 0,
+                        "Subcategory": {
+                            "SubcategoryId": 343,
+                            "PatchCount": 0,
+                            "SubcategoryDescription": "Processors - Desktops",
+                            "RealSubCategoryId": 343,
+                            "RealSubCategoryDescription": "Processors - Desktops"
+                        },
+                        "ItemManufactory": {
+                            "BrandId": 1028,
+                            "Code": 0,
+                            "Manufactory": "AMD",
+                            "CountryOfMfr": "USA",
+                            "ManfactoryLogo": 1,
+                            "ManufactoryWeb": null,
+                            "Hyperlink": null,
+                            "CustomerServicePhone": null,
+                            "IsM2C": false
+                        },
+                        "MaxQty4Promo": 999999,
+                        "ItemTime": {
+                            "StartTime": "1970-01-01 00:00:00.000",
+                            "ConvertTime": "1970-01-01 00:00:00.000",
+                            "ReleaseTime": "1970-01-01 00:00:00.000",
+                            "ETATime": null
+                        },
+                        "ConvertCompleteFlag": null,
+                        "NTCItemMark": false,
+                        "OEMMark": "false",
+                        "InstantRebateAmount": 200,
+                        "Review": {
+                            "Rating": 5,
+                            "HumanRating": 3901,
+                            "CombineGroup": 3,
+                            "ReviewSign": "",
+                            "ReviewSignValue": null,
+                            "ViewCount": 0,
+                            "ItemAsDescribedRate": null,
+                            "DeliverdOnTimeRate": null,
+                            "SatisfiedServiiceRate": null,
+                            "PositiveReviewRate": null,
+                            "ImageVideoReviews": 207,
+                            "RatingOneDecimal": 4.8,
+                            "DeliverdOnTimeRateLast12M": null,
+                            "ItemAsDescribedRateLast12M": null,
+                            "SatisfiedServiiceRateLast12M": null,
+                            "PositiveReviewRateLast12M": null
+                        },
+                        "Financing": {
+                            "TranCode": null,
+                            "StartDate": null,
+                            "EndDate": null,
+                            "Months": 0,
+                            "PayTermType": null
+                        },
+                        "RankInfo": {
+                            "ParentItem": null,
+                            "ItemNumber": "19-113-664",
+                            "WarehouseProcessScore": 0,
+                            "MerchantMetricsScore": 0.993774,
+                            "OrderPendingFastestDays": 0,
+                            "OrderPendingSlowestDays": 0,
+                            "FastestDays": 0,
+                            "SlowestDays": 0,
+                            "EggPointRate": 0,
+                            "ShippingMethodFastest": 3,
+                            "ShippingMethodSlowest": 7,
+                            "TierEggpointRate": 0,
+                            "InnerEggPercentPoints": null
+                        },
+                        "Seller": {
+                            "SellerId": "",
+                            "SellerName": null,
+                            "SellerLogoURL": null,
+                            "SellerRating": null,
+                            "SellerRatingOneDecimal": null,
+                            "SellerReviewCount": null,
+                            "SellerUrlKey": null,
+                            "SellerModel": null,
+                            "TopRated": false,
+                            "LifetimeOrderCount": 0,
+                            "SellerRatingLast12M": null,
+                            "SellerRatingOneDecimalLast12M": null,
+                            "SellerReviewCountLast12M": null
+                        },
+                        "Subscription": {
+                            "SubscriptionProgramID": 0,
+                            "SubscriptionOnly": false,
+                            "SubscriptionOrderFrequency": 0,
+                            "SubscriptionPriceDiscountRate": 0,
+                            "SubscriptionIsFreeShipping": "\u0000",
+                            "SubscriptionContractTerm": 0,
+                            "SubscriptionFreeTrial": 0,
+                            "IsSubscription": false,
+                            "IsRegularSubscription": false,
+                            "IsSubscriptionOnly": false,
+                            "IsCancelSubscription": false,
+                            "IsCommitmentSubscription": false,
+                            "IsSubscriptionFreeShipping": false
+                        },
+                        "VolumeDiscount": {
+                            "PromotionPrice1": 0,
+                            "PromotionPrice2": 0,
+                            "PromotionPrice3": 0,
+                            "PromotionQty1": 0,
+                            "PromotionQty2": 0,
+                            "PromotionQty3": 0,
+                            "PromotionShipping1": 0,
+                            "PromotionShipping2": 0,
+                            "PromotionShipping3": 0
+                        },
+                        "HasStudentPrice": false,
+                        "ViewDescription": "<b>L3 Cache:</b> 64MB<br/><b>L2 Cache:</b> 6MB<br/><b>Cooling Device:</b> Cooling device not included - Processor Only<br/><b>Manufacturing Tech:</b> 7nm<br/><b>64-Bit Support:</b> Yes<br/><b>Virtualization Technology Support:</b> Yes<br/><b>Processors Type:</b> Desktop<br/><b># of Threads:</b> 24<br/>",
+                        "Model": "100-100000061WOF",
+                        "ShippingCharge": 0.01,
+                        "RestrictedItemMark": "0",
+                        "NewProductMark": false,
+                        "Warranty": {
+                            "WarrantyID": 44,
+                            "WarrantyName": "Standard Return Policy"
+                        },
+                        "ItemGroupID": 149848354,
+                        "IsForceViewDetails": false,
+                        "BestSellingRanking": 18,
+                        "ItemTagFlags": {
+                            "BigDiscount": 2,
+                            "FreeShipping": 1,
+                            "NeweggPick": 5
+                        },
+                        "AutoPartsItemInfo": null,
+                        "DefaultShipVia": "100",
+                        "StockForPCBuilder": 0,
+                        "ShippingFeeType": 0,
+                        "ShippingFeeFlatRate": 0,
+                        "ShippingPromotionGroupID": "0",
+                        "EggSaverMark": "1",
+                        "SameDayShippingMark": "0",
+                        "Weight": 0.25,
+                        "LowestPrice30Days": 297.83,
+                        "PcodeDiscount": 0,
+                        "CustomTags": {
+                            "Save": "Save 36%"
+                        },
+                        "EssItemBadges": null,
+                        "IsHotItem": false,
+                        "ColorInfo": null,
+                        "BoostingType": null,
+                        "IsLowestPrice": false,
+                        "LaunchDate": null,
+                        "DurationDays": null,
+                        "ItemOfArrivalType": 0,
+                        "DealsType": null,
+                        "StateExceptionList": null,
+                        "Length": 5.5,
+                        "Width": 5.25,
+                        "Height": 2.8,
+                        "Category": {
+                            "RealGroupId": 42,
+                            "RealGroupName": "Components & Peripherals",
+                            "RealDomainId": 46,
+                            "RealDomainName": "CPU",
+                            "RealCategoryId": 29,
+                            "RealCategoryName": "CPU"
+                        },
+                        "ShipFromCountryName": "United States",
+                        "LimitQuantity": 2,
+                        "AutoAddDiscount": 0
+                    },
+                    "SubCategory": null,
+                    "Campaign": null,
+                    "Article": null,
+                    "Video": null,
+                    "Combo": null,
+                    "DataSource": "ARki",
+                    "DisplayedStoreID": null,
+                    "DataSourceType": "DM",
+                    "SimilarItem": false,
+                    "SponsoredMsg": null,
+                    "ExtraFields": {
+                        "SP_CID": null,
+                        "SP_GID": null,
+                        "SP_MT": null,
+                        "primary": null,
+                        "trigger": null,
+                        "CoremetricsTag": null,
+                        "SiteCatalystTagLevel": null,
+                        "SP_RPN": null,
+                        "SubcategoryID": null
+                    },
+                    "SelectedStatus": false,
+                    "ComboOffer": false,
+                    "ContentOfComboOfferDiscount": null
+                }
+            ],
+            "UiTemplate": null,
+            "MixResult": false,
+            "NavigationList": null,
+            "TemplateType": "SearchThenViewBoughtModuleV2"
+        }
+    ],
+    "SellerNValue": null
+}
